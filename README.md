@@ -46,7 +46,11 @@ The current phase is dedicated to mastering Convolutional Neural Networks (CNNs)
 ---
 
 ## 🛠️ Repository Structure
-├── phase1-foundation/ │ ├── capstone_fashion_mnist.py # Final project code │ └── exercises.ipynb # Module 1-5 exercise solutions ├── phase2-intermediate/ # (Future Code) ├── requirements.txt └── README.md |
+| :--- | :--: | :---: | :---|
+| Directory/File | Type | Purpose |
+| `README.md` | File | The document you are currently reading. |
+| `requirements.txt` |File | Lists all necessary Python packages `(torch, torchvision, numpy)` for running the code. |
+| `phase1-foundation/` | Folder | Contains all code and exercises from the foundational phase. |
 
 ### Setup and Running Code
 
