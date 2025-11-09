@@ -46,13 +46,13 @@ The current phase is dedicated to mastering Convolutional Neural Networks (CNNs)
 ---
 
 ## 🛠️ Repository Structure
-├── phase1-foundation/ │ ├── capstone_fashion_mnist.py # Final project code │ └── exercises.ipynb # Module 1-5 exercise solutions ├── phase2-intermediate/ # (Future Code) ├── requirements.txt └── README.md
+├── phase1-foundation/ │ ├── capstone_fashion_mnist.py # Final project code │ └── exercises.ipynb # Module 1-5 exercise solutions ├── phase2-intermediate/ # (Future Code) ├── requirements.txt └── README.md |
 
 ### Setup and Running Code
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/Alexmarco-gif/pytorch-deep-learning-professional-path.git](https://github.com/YourUsername/pytorch-deep-learning-professional-path.git)
+    git clone [https://github.com/Alexmarco-gif/pytorch-deep-learning-professional-path.git](https://github.com/Alexmarco-gif/pytorch-deep-learning-professional-path.git)
     cd pytorch-deep-learning-professional-path
     ```
 2.  **Install Dependencies:**
