@@ -47,7 +47,7 @@ The current phase is dedicated to mastering Convolutional Neural Networks (CNNs)
 
 ## 🛠️ Repository Structure
 | Directory/File | Type | Purpose |
-| :--- | :--: | :---: | :--|
+| :--- | :--- | :--- |
 | `README.md` | File | The document you are currently reading. |
 | `requirements.txt` |File | Lists all necessary Python packages `(torch, torchvision, numpy)` for running the code. |
 | `phase1-foundation/` | Folder | Contains all code and exercises from the foundational phase. |
