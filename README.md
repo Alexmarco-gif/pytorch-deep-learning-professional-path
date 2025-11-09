@@ -51,6 +51,9 @@ The current phase is dedicated to mastering Convolutional Neural Networks (CNNs)
 | `README.md` | File | The document you are currently reading. |
 | `requirements.txt` |File | Lists all necessary Python packages `(torch, torchvision, numpy)` for running the code. |
 | `phase1-foundation/` | Folder | Contains all code and exercises from the foundational phase. |
+| ├── `capstone_fashion_mnist.py` | Script | The final project script for the Fashion-MNIST classification (Module 6).|
+| └── `exercises.ipynb` | Notebook | Contains solutions and notes for Modules 1 through 5 exercises. |
+| `phase2-intermediate/` | Folder | Will house all code and projects related to Intermediate Deep Learning (CNNs, Transfer Learning).
 
 ### Setup and Running Code
 
