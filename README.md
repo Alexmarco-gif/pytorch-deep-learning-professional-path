@@ -30,18 +30,24 @@ This phase established the core building blocks of PyTorch and the fundamental c
 
 ## 🚀 Phase 2: Intermediate (Current Focus)
 
-The current phase is dedicated to mastering Convolutional Neural Networks (CNNs) and crucial optimization techniques necessary for handling image data and preparing for advanced architectures.
+This phase was focused on mastering Convolutional Neural Networks (CNNs) and essential optimization techniques needed for high-performance computer vision tasks. The key success was implementing and utilizing Transfer Learning.
 
-### Upcoming Modules:
+Core Concepts Covered:
+* Convolutional Layers (`nn.Conv2d`): Understanding kernels, stride, padding, and feature map shape transformations.
 
-1.  **Convolutional Layers:** `nn.Conv2d`, Stride, Padding, and feature extraction.
-2.  **Architectures & Pooling:** Implementing basic CNN structures and using `nn.MaxPool2d`.
-3.  **Advanced Data Augmentation:** Utilizing `torchvision.transforms` for robust training.
-4.  **Optimization:** Implementing Batch Normalization and Learning Rate Scheduling.
+* CNN Architectures: Combining Conv, ReLU, and Pooling (`nn.MaxPool2d`) layers into cohesive network structures (e.g., MiniVGG).
 
+* Data Augmentation: Using `torchvision.transforms` for robust training, including `RandomCrop`, `HorizontalFlip`, and essential `Normalization`.
+
+* Optimization: Integrating Batch Normalization (`nn.BatchNorm2d`) and Dropout (`nn.Dropout`) for training stability and regularization.
+
+* Learning Rate Scheduling: Implementing `StepLR` to dynamically adjust the learning rate during training.
+
+* Transfer Learning: Loading pre-trained models (`ResNet-18`) and utilizing the Feature Extractor (Fine-Tuning) method to achieve high accuracy with minimal data.
+* 
 ### Phase 2 Capstone:
 
-* **Transfer Learning Project:** Classifying a custom image dataset by fine-tuning a pre-trained model (e.g., **ResNet-18**).
+CIFAR-10 Transfer Learning:	Built a high-performance image classifier by fine-tuning the last few layers of a pre-trained ResNet-18 model on the CIFAR-10 dataset, achieving an accuracy of >88%.
 
 ---
 
@@ -54,6 +60,10 @@ The current phase is dedicated to mastering Convolutional Neural Networks (CNNs)
 | ├── `capstone_fashion_mnist.py` | Script | The final project script for the Fashion-MNIST classification (Module 6).|
 | └── `exercises.ipynb` | Notebook | Contains solutions and notes for Modules 1 through 5 exercises. |
 | `phase2-intermediate/` | Folder | Will house all code and projects related to Intermediate Deep Learning (CNNs, Transfer Learning).
+
+
+## 💡 Phase 3: Advanced Deep Learning
+The final phase shifts from model architecture to production readiness, advanced sequence models, and model explainability, moving towards MLOps and complex AI systems.
 
 ### Setup and Running Code
 
